@@ -21,19 +21,23 @@ function Comparison() {
                         </Link>
                         <div className="flex flex-col ml-6">
                             <p className="text-xl">Цена:<span className="text-cyan-600"> От 115 Р</span></p>
-                            <p className="mt-4">В наличии в <span className="text-green-600">12</span><br/> аптеках рядом с Вами!</p>
+                            <p className="mt-4">В наличии в <span className="text-green-600">12</span><br/> аптеках
+                                рядом с Вами!</p>
                         </div>
                     </div>
                     <div className="flex flex-row items-center justify-between">
-                        <Image
-                            src="/images/pankreatin.jpeg"
-                            alt="pank"
-                            width={300}
-                            height={300}
-                        />
+                        <Link href="/pankreatin">
+                            <Image
+                                src="/images/pankreatin.jpeg"
+                                alt="pank"
+                                width={300}
+                                height={300}
+                            />
+                        </Link>
                         <div className="flex flex-col ml-4">
                             <p className="text-xl">Цена:<span className="text-cyan-600"> От 60 Р</span></p>
-                            <p className="mt-4">В наличии в <span className="text-green-600">19</span><br/> аптеках рядом с Вами!</p>
+                            <p className="mt-4">В наличии в <span className="text-green-600">19</span><br/> аптеках
+                                рядом с Вами!</p>
                         </div>
                     </div>
                 </div>

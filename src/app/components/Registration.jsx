@@ -13,6 +13,7 @@ function Registration() {
                 <Input className="border border-gray-500 py-0.5 px-3 focus-none mt-2 data-fo" placeholder="Пароль"/>
                 <Link href="" className="text-sky-800 text-xl mt-8">Войти в личный кабинет</Link>
                 <Link href="" className="text-sky-800 text-base mt-2">Забыли пароль?</Link>
+                <Link href="/profile" className="text-sky-800 text-base mt-8">Попробуйте Бета-версию</Link>
             </div>
         </div>
     );

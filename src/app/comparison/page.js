@@ -1,4 +1,5 @@
-import Profile from "@/app/components/Profile";
+import React from 'react';
+import Comparison from "@/app/components/Сomparison";
 import Header from "@/app/components/Header";
 
 function Page() {
@@ -6,7 +7,7 @@ function Page() {
         <main className="flex min-h-screen flex-col bg-white px-12 py-2">
             <container className="container mx-auto">
                 <Header/>
-                <Profile/>
+                <Comparison/>
             </container>
         </main>
     );

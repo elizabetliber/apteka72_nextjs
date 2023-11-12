@@ -1,13 +1,16 @@
 import Header from "@/app/components/Header";
-import Comparison from "@/app/components/Сomparison";
+import Hero from "@/app/components/Hero";
+import Info from "@/app/components/Info";
+import Footer from "@/app/Footer";
 
 export default function Home() {
     return (
-        <main className="flex min-h-screen flex-col bg-[#fff] px-12 py-14">
+        <main className="flex min-h-screen flex-col bg-[#fff] px-12 py-2">
             <container className="container mx-auto">
                 <Header/>
-                {/*<Hero/>*/}
-                <Comparison/>
+                <Hero/>
+                <Info/>
+                <Footer/>
             </container>
         </main>
     )
